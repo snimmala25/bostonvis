@@ -11,7 +11,7 @@ st.sidebar.title('Boston Visualizations')
 st.sidebar.image('https://cdn5.vectorstock.com/i/1000x1000/88/59/logo-for-boston-vector-31288859.jpg', caption='Boston Map')
 
 # Navigation
-page = st.sidebar.radio('Navigation', ['My Story', 'About', 'Tourism', 'Jobs', 'Real Estate', 'Home'])
+page = st.sidebar.radio('Navigation', ['My Story', 'About', 'Tourism', 'Jobs', 'Real Estate'])
 
 # Main content
 if page == 'Home':
@@ -32,6 +32,5 @@ elif page == 'Real Estate':
 elif page == 'My Story':
     my_story_page()
 
-# Year selection
-from year_selection import year_selection
-year_selection()
+
+
